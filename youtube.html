@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/general.css">
+<style>
+  .video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;      
+    column-gap: 15px;
+    row-gap: 25px;                        
+}
+.video-cover{
+    height: 175px;
+    width: 100%;
+
+}
+.video-grid-info{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin-top: 15px;
+    align-items: center;
+}
+.profile{
+    width: 100%;
+    border-radius: 100px;
+}
+.video-info{
+    margin-left: 15px;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.video-author, .video-stats{
+    color: gray;
+}
+.video-stats{
+    margin-top: 15px;
+}
+    .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
+
+}
+.right-section{
+    background-color: aqua;
+    width: 100%;
+    width: 150px;
+}
+.center-section{
+    background-color: aquamarine;
+    max-width: 500px;
+    margin-left: 50px;
+    margin-right: 35px;
+    flex: 1;
+    display: flex;
+}
+.left-section{
+    width: 200px;
+}
+.menu{
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+.logo{
+    height: 30px
+}
+.search-box{
+    flex: 2;
+    height: 35px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.search-box:focus{
+    outline: none;
+}
+.search-button{
+
+}
+.search-icon{
+    height: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="menu" src="https://cdn-icons-png.flaticon.com/512/2976/2976215.png" alt="menu">
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="logo">
+        </div>
+        <div class="center-section">
+            <input class="search-box" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="search">
+            </button>
+        </div>
+        <div class="right-section">right section</div>
+
+    </div>
+<div class="video-grid">
+    <div class="video-preview">
+    <div ><img class="video-cover" alt="elion" src="https://th.bing.com/th/id/R.714ded58eca847403f03d14c6eff8bfb?rik=jYg%2b1lmnRDbnIQ&pid=ImgRaw&r=0" alt=""></div>
+    <div class="video-grid-info">
+    <div class="chanel-profile"><img class="profile" src="https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Sundar-Pichai.jpg" alt=""></div>
+    <div class="video-info">
+        <div class="video-title">title goes here</div>
+        <div class="video-author">author</div>
+        <div class="video-stats">video stats</div>
+    </div>
+    </div>
+</div>
+<div class="video-preview">
+    <div ><img class="video-cover" alt="elion" src="https://th.bing.com/th/id/R.714ded58eca847403f03d14c6eff8bfb?rik=jYg%2b1lmnRDbnIQ&pid=ImgRaw&r=0" alt=""></div>
+    <div class="video-grid-info">
+    <div class="chanel-profile"><img class="profile" src="https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Sundar-Pichai.jpg" alt=""></div>
+    <div class="video-info">
+        <div class="video-title">title goes here</div>
+        <div class="video-author">author</div>
+        <div class="video-stats">video stats</div>
+    </div>
+    </div>
+</div>    
+<div class="video-preview">
+    <div ><img class="video-cover" alt="elion" src="https://th.bing.com/th/id/R.714ded58eca847403f03d14c6eff8bfb?rik=jYg%2b1lmnRDbnIQ&pid=ImgRaw&r=0" alt=""></div>
+    <div class="video-grid-info">
+    <div class="chanel-profile"><img class="profile" src="https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Sundar-Pichai.jpg" alt=""></div>
+    <div class="video-info">
+        <div class="video-title">title goes here</div>
+        <div class="video-author">author</div>
+        <div class="video-stats">video stats</div>
+    </div>
+    </div>
+</div>    
+<div class="video-preview">
+    <div ><img class="video-cover" alt="elion" src="https://th.bing.com/th/id/R.714ded58eca847403f03d14c6eff8bfb?rik=jYg%2b1lmnRDbnIQ&pid=ImgRaw&r=0" alt=""></div>
+    <div class="video-grid-info">
+    <div class="chanel-profile"><img class="profile" src="https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Sundar-Pichai.jpg" alt=""></div>
+    <div class="video-info">
+        <div class="video-title">title goes here</div>
+        <div class="video-author">author</div>
+        <div class="video-stats">video stats</div>
+    </div>
+    </div>
+</div>    
+<div class="video-preview">
+    <div ><img class="video-cover" alt="elion" src="https://th.bing.com/th/id/R.714ded58eca847403f03d14c6eff8bfb?rik=jYg%2b1lmnRDbnIQ&pid=ImgRaw&r=0" alt=""></div>
+    <div class="video-grid-info">
+    <div class="chanel-profile"><img class="profile" src="https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Sundar-Pichai.jpg" alt=""></div>
+    <div class="video-info">
+        <div class="video-title">title goes here</div>
+        <div class="video-author">author</div>
+        <div class="video-stats">video stats</div>
+    </div>
+    </div>
+</div>    
+<div class="video-preview">
+    <div ><img class="video-cover" alt="elion" src="https://th.bing.com/th/id/R.714ded58eca847403f03d14c6eff8bfb?rik=jYg%2b1lmnRDbnIQ&pid=ImgRaw&r=0" alt=""></div>
+    <div class="video-grid-info">
+    <div class="chanel-profile"><img class="profile" src="https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Sundar-Pichai.jpg" alt=""></div>
+    <div class="video-info">
+        <div class="video-title">title goes here</div>
+        <div class="video-author">author</div>
+        <div class="video-stats">video stats</div>
+    </div>
+    </div>
+</div>
+    
+</div>
+</body>
+</html>
